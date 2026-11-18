@@ -1,0 +1,141 @@
+@font-face{
+  font-family: Mont;
+  src: url(../fonts/Montserrat-Regular.ttf);
+}
+@font-face{
+  font-family: Bold;
+  src: url(../fonts/Montserrat-Bold.ttf);
+}
+
+*{
+    margin:0;
+    padding: 0;
+    font-family: Mont;
+}
+        #main{
+            height: 100%;
+            border-radius: 20px;
+        }
+        .sidebar{
+           height: 100vh;
+             background-image: linear-gradient( mediumpurple, purple);
+        }
+        
+        .col-md-2 img{
+            width: 35%;
+            margin-top: 20px;
+        }
+        #main .col-md-2 h3{
+	color: #fff;
+	font-size: 25px;
+    text-align: center;
+    font-family: Bold;
+}
+#main ul{
+    list-style: none;
+    overflow: hidden;
+    padding: 0;
+    width: 100%;
+}
+#main li a{
+    text-decoration: none;
+    margin-bottom: 5px;
+    padding: 10px;
+    color: #fff;
+    display: block;
+    width: 100%;
+}
+#main li .active{
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+}
+#main li a:hover{
+    background-color: #fff;
+    color: #000;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+#main .box1{
+    background-color: crimson;
+    padding: 30px;
+    color: #fff;
+    height: 25vh;
+    border-radius: 20px
+}
+#main .box{
+    padding: 20px;
+    border-radius: 5px;
+    border-bottom: 6px solid mediumpurple;
+}
+#main .box span{
+    color: mediumpurple;
+    font-size: 50px;
+}
+#main .box h6{
+    font-family: Bold;
+    color: 333s;
+}
+#table button{
+    background-color: crimson;
+    border:none;
+}
+#main table{
+    width: 100%;
+    background-color: #eee;
+}
+#main .col-md-12 h3{
+    border-left: 5px solid mediumpurple;
+    padding: 7px;
+    color: mediumpurple;
+    font-family: Bold;
+}
+#main td, th{
+    padding: 10px;
+}
+#main th{
+    background-color: mediumpurple;
+    color: #fff;
+
+}
+#main .col-md-8 h3{
+     background-image: linear-gradient(to right, mediumpurple, purple);
+    padding: 7px;
+    color: #fff;
+    font-family: Bold;
+    border-radius: 5px;
+}
+#main .col-md-8 button{
+ background-image: linear-gradient(to right, mediumpurple, purple);
+ border:  none;
+ box-shadow: 0px;
+ color: #fff;
+}
+#main .col-md-8 input{
+  padding: 25px;
+  border:  1px solid #ddd;
+  box-shadow: 0px;
+}
+#main .col-md-8 select{
+
+  border:  1px solid #ddd;
+  box-shadow: 0px;
+  color: #000 !important;
+}
+#main .col-md-8 option{
+  color: #000 !important;
+}
+#main .col-md-8  select:focus{
+  border: 1px solid mediumpurple;
+  box-shadow: none;
+}
+
+#main .col-md-8  input:focus{
+  border: 1px solid mediumpurple;
+  box-shadow: none;
+}
+#main .list{
+    background-image: linear-gradient(to right, mediumpurple, purple);
+    padding: 10px;
+    border-radius: 5px;
+}
